@@ -3,6 +3,8 @@
 // Create token
 // https://www.tucuota.com/dashboard/developers
 $tuCuotaToken = getenv('TC_API_KEY');
+echo 'hola'. $tuCuotaToken;
+exit;
 
 // Get current url
 $currentUrl = "http" . (($_SERVER['SERVER_PORT'] == 443) ? "s" : "") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
