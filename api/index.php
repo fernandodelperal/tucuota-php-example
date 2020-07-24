@@ -20,7 +20,7 @@ if (!isset($_GET['customer_id']) || !isset($_GET['customer_name']) || !isset($_G
 $endpoint = 'https://www.tucuota.com/api/sessions';
 $post_data = [
     'kind' => 'mandate',
-    // 'success_url' => $currentUrl,
+    'success_url' => $currentUrl,
     'customer_id' => $_GET['customer_id'],
     'customer_name' => $_GET['customer_name'],
     'customer_email' => $_GET['customer_email']
