@@ -1,7 +1,7 @@
 <?php
 // CONFIG
 // Create token
-
+echo 'hola';
 // https://www.tucuota.com/dashboard/developers
 $tuCuotaToken = getenv('TC_API_KEY');
 
